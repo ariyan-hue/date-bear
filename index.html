@@ -88,7 +88,7 @@ body{font-family:'Baloo 2','Segoe UI',system-ui,sans-serif;background:linear-gra
 .spark:nth-child(4){bottom:15%;right:10%;animation-delay:.9s}
 @keyframes twinkle{from{opacity:.3;transform:scale(.6) rotate(0deg)}to{opacity:1;transform:scale(1.2) rotate(20deg)}}
 
-h1{font-size:1.7rem;font-weight:800;line-height:1.35;margin-bottom:6px;transition:all .3s}
+h1{font-size:1.9rem;font-weight:800;line-height:1.35;margin-bottom:16px;transition:all .3s}
 .subtext{font-size:1rem;font-weight:500;color:#8a6a75;min-height:1.6em;margin-bottom:22px;transition:all .3s}
 .buttons{position:relative;display:flex;gap:18px;justify-content:center;align-items:center;min-height:80px;flex-wrap:wrap}
 button{font-family:inherit;font-weight:800;border:none;cursor:pointer;border-radius:999px;transition:transform .35s cubic-bezier(.34,1.56,.64,1),box-shadow .3s,background .3s,opacity .3s;-webkit-tap-highlight-color:transparent}
@@ -157,7 +157,6 @@ button{font-family:inherit;font-weight:800;border:none;cursor:pointer;border-rad
   </div>
 
   <h1 id="question">Mau ngedate nggak? 🥺</h1>
-  <p class="subtext" id="subtext">Jawab yang jujur ya...</p>
 
   <div class="buttons">
     <button id="yesBtn">Iya, Mau! 💖</button>
@@ -228,7 +227,7 @@ const EMOJI = {
 const $ = id => document.getElementById(id);
 const emojiEl = $('emoji'), card = $('card');
 const yesBtn = $('yesBtn'), noBtn = $('noBtn');
-const question = $('question'), subtext = $('subtext');
+const question = $('question');
 const stormOverlay = $('stormOverlay'), lightning = $('lightning');
 
 let noCount = 0, accepted = false, sadTimer = null, dramaticTimer = null;
@@ -423,9 +422,8 @@ noBtn.addEventListener('click', () => {
   yesBtn.style.animation = 'none';
 
   const idx = Math.min(noCount-1, CONFIG.noTexts.length-1);
-  const subIdx = Math.min(noCount-1, CONFIG.subtexts.length-1);
   noBtn.textContent = CONFIG.noTexts[idx];
-  subtext.textContent = CONFIG.subtexts[subIdx];
+  question.textContent = CONFIG.subtexts[idx];
 
   if (noCount >= dramaticThreshold && noCount < faintThreshold) {
     playThunder(); flashLightning();
@@ -448,8 +446,8 @@ noBtn.addEventListener('click', () => {
     question.textContent = '... 😤💢';
     question.style.color = '#ff2e63';
     question.style.fontSize = '2rem';
-    subtext.textContent = 'GAK ADA TOMBOL NO LAGI! 😤💢';
-    subtext.style.color = '#ff2e63';
+    question.textContent = 'GAK ADA TOMBOL NO LAGI! 😤💢';
+    question.style.color = '#ff2e63';
     noBtn.style.transition = 'transform .6s ease, opacity .6s ease';
     noBtn.style.transform = 'scale(0) rotate(360deg)';
     noBtn.style.opacity = '0';
@@ -462,7 +460,6 @@ noBtn.addEventListener('click', () => {
         stormOverlay.classList.remove('on');
         question.textContent='Yaudah, cuma ada tombol Yes sekarang 💘';
         question.style.color=''; question.style.fontSize='';
-        subtext.textContent='Pilihanmu udah jelas~ 😌'; subtext.style.color='';
         setState('default');
         yesBtn.style.animation='yesPulse 2s ease-in-out infinite';
         yesBtn.style.transform='scale('+yesScale+')';
@@ -489,8 +486,6 @@ yesBtn.addEventListener('click', () => {
   startStageHearts();
   question.textContent = 'YEY! Aku tahu kamu mau! 💖';
   question.style.color=''; question.style.fontSize='';
-  subtext.textContent = 'Sekarang atur jadwal kencannya yuk!';
-  subtext.style.color='';
   yesBtn.style.animation='yesPulse 2s ease-in-out infinite';
   yesBtn.style.transform='scale('+yesScale+')';
   noBtn.style.opacity='0'; noBtn.style.pointerEvents='none';
