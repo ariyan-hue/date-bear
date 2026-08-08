@@ -3,166 +3,132 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#ff5e8a">
+
 <title>Mau Ngedate Nggak? 🐻💖</title>
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://date-bear.vercel.app">
-  <meta property="og:title" content="Mau Ngedate Nggak? 🐻💖">
-  <meta property="og:description" content="Website lucu yang ngajak ngedate pasangan! Klik Yes dan atur jadwal kencannya~ 💕">
-  <meta property="og:image" content="https://date-bear.vercel.app/og-image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Cute bear ngajak ngedate 💖">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="https://date-bear.vercel.app">
-  <meta name="twitter:title" content="Mau Ngedate Nggak? 🐻💖">
-  <meta name="twitter:description" content="Website lucu yang ngajak ngedate pasangan! Klik Yes dan atur jadwal kencannya~ 💕">
-  <meta name="twitter:image" content="https://date-bear.vercel.app/og-image.png">
-  <meta name="twitter:image:alt" content="Cute bear ngajak ngedate 💖">
-
-  <!-- General -->
-  <meta name="description" content="Website lucu yang ngajak ngedate pasangan! Ada animated bear yang bisa sedih, happy, dramatic, sampe pingsan kalau terus ditolak 😂💕">
-  <meta name="theme-color" content="#ff5e8a">
-
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://date-bear.vercel.app">
+<meta property="og:title" content="Mau Ngedate Nggak? 🐻💖">
+<meta property="og:description" content="Website lucu yang ngajak ngedate pasangan! Klik Yes dan atur jadwal kencannya~ 💕">
+<meta property="og:image" content="https://date-bear.vercel.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Cute bear ngajak ngedate 💖">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://date-bear.vercel.app">
+<meta name="twitter:title" content="Mau Ngedate Nggak? 🐻💖">
+<meta name="twitter:description" content="Website lucu yang ngajak ngedate pasangan! Klik Yes dan atur jadwal kencannya~ 💕">
+<meta name="twitter:image" content="https://date-bear.vercel.app/og-image.png">
+<meta name="twitter:image:alt" content="Cute bear ngajak ngedate 💖">
+<!-- General -->
+<meta name="description" content="Website lucu yang ngajak ngedate pasangan! Ada animated bear yang bisa sedih, happy, dramatic, sampe pingsan kalau terus ditolak 😂💕">
+<meta name="theme-color" content="#ff5e8a">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐻</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
 <style>
-  *{margin:0;padding:0;box-sizing:border-box}
-  :root{--pink:#ff5e8a;--pink-dark:#ff2e63;--pink-soft:#ffb3c6;--cream:#fff5f7;--brown-dark:#4a3226}
-  html,body{height:100%}
-  body{font-family:'Baloo 2','Segoe UI',system-ui,sans-serif;background:linear-gradient(-45deg,#ffe3ec,#ffc2d4,#ffdde1,#ffe9f0);background-size:400% 400%;animation:bgShift 12s ease infinite;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 16px;overflow-x:hidden;color:var(--brown-dark)}
-  @keyframes bgShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--pink:#ff5e8a;--pink-dark:#ff2e63;--pink-soft:#ffb3c6;--cream:#fff5f7;--brown-dark:#4a3226}
+html,body{height:100%}
+body{font-family:'Baloo 2','Segoe UI',system-ui,sans-serif;background:linear-gradient(-45deg,#ffe3ec,#ffc2d4,#ffdde1,#ffe9f0);background-size:400% 400%;animation:bgShift 12s ease infinite;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px 16px;overflow-x:hidden;color:var(--brown-dark)}
+@keyframes bgShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
 
-  /* ===== Screen shake ===== */
-  .shake{animation:shakeIt .5s ease-in-out}
-  @keyframes shakeIt{0%,100%{transform:translate(0)}10%{transform:translate(-8px,4px)}20%{transform:translate(8px,-4px)}30%{transform:translate(-6px,-2px)}40%{transform:translate(6px,2px)}50%{transform:translate(-4px,6px)}60%{transform:translate(4px,-6px)}70%{transform:translate(-2px,-4px)}80%{transform:translate(2px,4px)}90%{transform:translate(-1px,2px)}}
+.shake{animation:shakeIt .5s ease-in-out}
+@keyframes shakeIt{0%,100%{transform:translate(0)}10%{transform:translate(-8px,4px)}20%{transform:translate(8px,-4px)}30%{transform:translate(-6px,-2px)}40%{transform:translate(6px,2px)}50%{transform:translate(-4px,6px)}60%{transform:translate(4px,-6px)}70%{transform:translate(-2px,-4px)}80%{transform:translate(2px,4px)}90%{transform:translate(-1px,2px)}}
 
-  /* ===== Lightning flash ===== */
-  #lightning{position:fixed;inset:0;background:#fff;opacity:0;z-index:30;pointer-events:none;transition:opacity 0.05s}
-  #lightning.flash{opacity:.85;transition:opacity 0.02s}
+#lightning{position:fixed;inset:0;background:#fff;opacity:0;z-index:30;pointer-events:none;transition:opacity 0.05s}
+#lightning.flash{opacity:.85;transition:opacity 0.02s}
 
-  /* ===== Background floating hearts ===== */
-  .bg-heart{position:fixed;bottom:-12vh;z-index:0;pointer-events:none;animation:rise linear infinite;opacity:.45}
-  @keyframes rise{0%{transform:translateY(0) rotate(-8deg)}100%{transform:translateY(-120vh) rotate(12deg)}}
+.bg-heart{position:fixed;bottom:-12vh;z-index:0;pointer-events:none;animation:rise linear infinite;opacity:.45}
+@keyframes rise{0%{transform:translateY(0) rotate(-8deg)}100%{transform:translateY(-120vh) rotate(12deg)}}
 
-  /* ===== Card ===== */
-  .card{position:relative;z-index:2;width:min(92vw,460px);background:rgba(255,255,255,.78);backdrop-filter:blur(10px);border-radius:32px;padding:28px 26px 34px;text-align:center;box-shadow:0 20px 60px rgba(255,46,99,.25);overflow:visible;transition:opacity .4s ease,transform .4s ease}
-  .card.fade-out{opacity:0;transform:scale(.92);pointer-events:none}
-  .bear-stage{position:relative;height:220px;display:flex;align-items:center;justify-content:center;margin-bottom:6px}
-  .stage-heart{position:absolute;bottom:8%;pointer-events:none;z-index:3;animation:heartPop ease-out forwards}
-  @keyframes heartPop{0%{transform:translateY(0) scale(.3);opacity:0}20%{opacity:1}100%{transform:translateY(-100px) scale(1.4) rotate(14deg);opacity:0}}
+.card{position:relative;z-index:2;width:min(92vw,460px);background:rgba(255,255,255,.78);backdrop-filter:blur(10px);border-radius:32px;padding:28px 26px 34px;text-align:center;box-shadow:0 20px 60px rgba(255,46,99,.25);overflow:visible;transition:opacity .4s ease,transform .4s ease}
+.card.fade-out{opacity:0;transform:scale(.92);pointer-events:none}
 
-  h1{font-size:1.7rem;font-weight:800;line-height:1.35;margin-bottom:6px;transition:all .3s}
-  .subtext{font-size:1rem;font-weight:500;color:#8a6a75;min-height:1.6em;margin-bottom:22px;transition:all .3s}
-  .buttons{position:relative;display:flex;gap:18px;justify-content:center;align-items:center;min-height:80px;flex-wrap:wrap}
-  button{font-family:inherit;font-weight:800;border:none;cursor:pointer;border-radius:999px;transition:transform .35s cubic-bezier(.34,1.56,.64,1),box-shadow .3s,background .3s,opacity .3s;-webkit-tap-highlight-color:transparent}
+/* ===== EMOJI STAGE ===== */
+.bear-stage{position:relative;height:220px;display:flex;align-items:center;justify-content:center;margin-bottom:6px}
+.stage-heart{position:absolute;bottom:8%;pointer-events:none;z-index:3;animation:heartPop ease-out forwards}
+@keyframes heartPop{0%{transform:translateY(0) scale(.3);opacity:0}20%{opacity:1}100%{transform:translateY(-100px) scale(1.4) rotate(14deg);opacity:0}}
 
-  #yesBtn{background:linear-gradient(135deg,var(--pink),var(--pink-dark));color:#fff;font-size:1.25rem;padding:16px 40px;box-shadow:0 10px 26px rgba(255,46,99,.45);transform-origin:center;animation:yesPulse 2s ease-in-out infinite}
-  #yesBtn:hover{box-shadow:0 14px 34px rgba(255,46,99,.6)}
-  @keyframes yesPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+#emoji{font-size:140px;line-height:1;transition:transform .3s;animation:idleBounce 3.2s ease-in-out infinite;filter:drop-shadow(0 8px 20px rgba(0,0,0,.12));user-select:none}
+@keyframes idleBounce{0%,100%{transform:translateY(0) rotate(0deg)}25%{transform:translateY(-8px) rotate(3deg)}75%{transform:translateY(-5px) rotate(-3deg)}}
 
-  #noBtn{background:#b9bec7;color:#fff;font-size:1rem;padding:14px 30px;box-shadow:0 6px 16px rgba(0,0,0,.15);transform-origin:center;z-index:5}
-  #noBtn:hover{background:#a0a5ae}
+/* State animations */
+.state-sad #emoji{animation:sadWobble 1.6s ease-in-out infinite}
+@keyframes sadWobble{0%,100%{transform:rotate(-5deg) translateY(3px)}50%{transform:rotate(5deg) translateY(8px)}}
 
-  /* ===== Dramatic storm overlay ===== */
-  #stormOverlay{position:fixed;inset:0;z-index:25;pointer-events:none;opacity:0;transition:opacity 1s;background:linear-gradient(180deg,rgba(30,30,50,.6),rgba(20,20,40,.3))}
-  #stormOverlay.on{opacity:1}
+.state-happy #emoji{animation:happyJump .7s ease-in-out infinite}
+@keyframes happyJump{0%,100%{transform:translateY(0) scale(1)}25%{transform:translateY(-25px) rotate(-8deg) scale(1.1)}50%{transform:translateY(0) scale(.92)}75%{transform:translateY(-18px) rotate(8deg) scale(1.05)}}
 
-  /* ===== Bear SVG states ===== */
-  #bear{transition:transform .4s;animation:idleBounce 3.2s ease-in-out infinite,idleBlink 4s ease-in-out infinite}
-  @keyframes idleBounce{0%,100%{transform:translateY(0) rotate(0deg)}25%{transform:translateY(-5px) rotate(1.5deg)}75%{transform:translateY(-3px) rotate(-1.5deg)}}
-  @keyframes idleBlink{0%,42%,46%,100%{opacity:1}44%{opacity:.3}}
+.state-dramatic #emoji{animation:dramaticShake .12s linear infinite}
+@keyframes dramaticShake{0%{transform:translateX(-5px) rotate(-3deg)}50%{transform:translateX(5px) rotate(3deg)}100%{transform:translateX(-5px) rotate(-3deg)}}
 
-  .state-sad #bear{animation:sadDrop 1.8s ease-in-out infinite}
-  @keyframes sadDrop{0%,100%{transform:rotate(-3deg) translateY(3px)}50%{transform:rotate(3deg) translateY(8px)}}
+.state-faint #emoji{animation:faintFall 1.2s ease-out forwards}
+@keyframes faintFall{0%{transform:rotate(0) translateY(0)}25%{transform:rotate(-12deg) translateY(-15px)}100%{transform:rotate(60deg) translateY(25px) translateX(30px);opacity:.5}}
 
-  .state-happy #bear{animation:happyDance .7s ease-in-out infinite}
-  @keyframes happyDance{0%,100%{transform:translateY(0) rotate(0deg) scale(1)}25%{transform:translateY(-20px) rotate(-6deg) scale(1.05)}50%{transform:translateY(0) rotate(0deg) scale(.95)}75%{transform:translateY(-14px) rotate(6deg) scale(1.02)}}
+/* Raindrops for sad */
+.rain{position:absolute;top:0;left:50%;transform:translateX(-50%);pointer-events:none;opacity:0;transition:opacity .3s}
+.state-sad .rain{opacity:1}
+.rain-drop{position:absolute;width:4px;height:12px;background:linear-gradient(180deg,transparent,#8ed0f0);border-radius:0 0 4px 4px;animation:rainFall .9s linear infinite}
+.rain-drop:nth-child(1){left:-20px;animation-delay:0s}
+.rain-drop:nth-child(2){left:0px;animation-delay:.3s}
+.rain-drop:nth-child(3){left:20px;animation-delay:.6s}
+@keyframes rainFall{0%{transform:translateY(-10px);opacity:0}30%{opacity:1}100%{transform:translateY(40px);opacity:0}}
 
-  .state-dramatic #bear{animation:dramaticShake .15s linear infinite}
-  @keyframes dramaticShake{0%{transform:translateX(-3px) rotate(-2deg)}50%{transform:translateX(3px) rotate(2deg)}100%{transform:translateX(-3px) rotate(-2deg)}}
+/* Sparkles for happy */
+.sparkles{position:absolute;inset:-20px;pointer-events:none;opacity:0;transition:opacity .3s}
+.state-happy .sparkles{opacity:1}
+.spark{position:absolute;font-size:22px;animation:twinkle 1s ease-in-out infinite alternate}
+.spark:nth-child(1){top:5%;left:10%;animation-delay:0s}
+.spark:nth-child(2){top:10%;right:8%;animation-delay:.3s}
+.spark:nth-child(3){bottom:20%;left:5%;animation-delay:.6s}
+.spark:nth-child(4){bottom:15%;right:10%;animation-delay:.9s}
+@keyframes twinkle{from{opacity:.3;transform:scale(.6) rotate(0deg)}to{opacity:1;transform:scale(1.2) rotate(20deg)}}
 
-  .state-faint #bear{animation:faintFall 1.2s ease-out forwards}
-  @keyframes faintFall{0%{transform:rotate(0) translateY(0)}30%{transform:rotate(-8deg) translateY(-10px)}100%{transform:rotate(45deg) translateY(20px) translateX(20px);opacity:.7}}
+h1{font-size:1.7rem;font-weight:800;line-height:1.35;margin-bottom:6px;transition:all .3s}
+.subtext{font-size:1rem;font-weight:500;color:#8a6a75;min-height:1.6em;margin-bottom:22px;transition:all .3s}
+.buttons{position:relative;display:flex;gap:18px;justify-content:center;align-items:center;min-height:80px;flex-wrap:wrap}
+button{font-family:inherit;font-weight:800;border:none;cursor:pointer;border-radius:999px;transition:transform .35s cubic-bezier(.34,1.56,.64,1),box-shadow .3s,background .3s,opacity .3s;-webkit-tap-highlight-color:transparent}
 
-  .ear{transition:transform .45s ease}
-  .state-sad .ear-left{transform:rotate(20deg) translateY(8px);transform-origin:58px 52px}
-  .state-sad .ear-right{transform:rotate(-20deg) translateY(8px);transform-origin:162px 52px}
-  .state-dramatic .ear-left,.state-dramatic .ear-right{transform:rotate(24deg) translateY(12px);transform-origin:center}
-  .state-happy .ear-left{transform:rotate(-8deg) translateY(-4px);transform-origin:58px 52px}
-  .state-happy .ear-right{transform:rotate(8deg) translateY(-4px);transform-origin:162px 52px}
+#yesBtn{background:linear-gradient(135deg,var(--pink),var(--pink-dark));color:#fff;font-size:1.25rem;padding:16px 40px;box-shadow:0 10px 26px rgba(255,46,99,.45);transform-origin:center;animation:yesPulse 2s ease-in-out infinite}
+#yesBtn:hover{box-shadow:0 14px 34px rgba(255,46,99,.6)}
+@keyframes yesPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
 
-  .paws{transition:transform .35s ease}
-  .state-happy .paws{animation:pawWave .5s ease-in-out infinite alternate}
-  @keyframes pawWave{from{transform:translateY(-8px) rotate(-10deg)}to{transform:translateY(-14px) rotate(10deg)}}
+#noBtn{background:#b9bec7;color:#fff;font-size:1rem;padding:14px 30px;box-shadow:0 6px 16px rgba(0,0,0,.15);transform-origin:center;z-index:5}
+#noBtn:hover{background:#a0a5ae}
 
-  .state-dramatic .paws{animation:pawShake .1s linear infinite}
-  @keyframes pawShake{0%,100%{transform:translateX(-2px)}50%{transform:translateX(2px)}}
+#stormOverlay{position:fixed;inset:0;z-index:25;pointer-events:none;opacity:0;transition:opacity 1s;background:linear-gradient(180deg,rgba(30,30,50,.6),rgba(20,20,40,.3))}
+#stormOverlay.on{opacity:1}
 
-  /* visibility per state */
-  .eyes-sad,.eyes-happy,.mouth-sad,.mouth-happy,.cloud,.sparkle,.tear,.eyes-dramatic,.mouth-dramatic,.sweat{display:none}
-  .state-sad .eyes-default,.state-sad .mouth-default,.state-sad .eyes-happy,.state-sad .mouth-happy,.state-sad .sparkle,.state-sad .eyes-dramatic,.state-sad .mouth-dramatic,.state-sad .sweat{display:none}
-  .state-sad .eyes-sad,.state-sad .mouth-sad,.state-sad .cloud{display:block}
-  .state-happy .eyes-default,.state-happy .mouth-default,.state-happy .eyes-sad,.state-happy .mouth-sad,.state-happy .cloud,.state-happy .eyes-dramatic,.state-happy .mouth-dramatic,.state-happy .sweat{display:none}
-  .state-happy .eyes-happy,.state-happy .mouth-happy,.state-happy .sparkle{display:block}
-  .state-dramatic .eyes-default,.state-dramatic .mouth-default,.state-dramatic .eyes-happy,.state-dramatic .mouth-happy,.state-dramatic .sparkle{display:none}
-  .state-dramatic .eyes-dramatic,.state-dramatic .mouth-dramatic,.state-dramatic .cloud,.state-dramatic .sweat{display:block}
-  .state-faint .eyes-default,.state-faint .mouth-default,.state-faint .eyes-happy,.state-faint .mouth-happy,.state-faint .sparkle{display:none}
-  .state-faint .eyes-dramatic,.state-faint .mouth-dramatic,.state-faint .cloud{display:block}
+.panel{position:fixed;inset:0;z-index:10;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(255,214,226,.35);backdrop-filter:blur(6px)}
+.panel.show{display:flex;animation:fadeIn .4s ease}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+.panel-card{width:min(92vw,440px);background:#fff;border-radius:28px;padding:30px 26px;box-shadow:0 24px 70px rgba(255,46,99,.35);text-align:center;animation:popIn .5s cubic-bezier(.34,1.56,.64,1)}
+@keyframes popIn{from{transform:scale(.7) translateY(30px);opacity:0}to{transform:scale(1) translateY(0);opacity:1}}
+.panel-card h2{font-size:1.6rem;margin-bottom:4px}
+.panel-card p.desc{color:#8a6a75;margin-bottom:20px}
+.field{text-align:left;margin-bottom:16px}
+.field label{display:block;font-weight:700;font-size:.95rem;margin-bottom:6px}
+.field input{width:100%;font-family:inherit;font-size:1rem;padding:12px 16px;border:2px solid #ffd3de;border-radius:14px;background:var(--cream);color:var(--brown-dark);outline:none;transition:border-color .25s,box-shadow .25s}
+.field input:focus{border-color:var(--pink);box-shadow:0 0 0 4px rgba(255,94,138,.18)}
+.submit-btn{width:100%;margin-top:6px;background:linear-gradient(135deg,var(--pink),var(--pink-dark));color:#fff;font-size:1.15rem;padding:15px;box-shadow:0 10px 24px rgba(255,46,99,.4)}
+.submit-btn:hover{transform:translateY(-2px)}
 
-  .tear{animation:tearFall 1s ease-in infinite;transform-origin:center}
-  .tear-2{animation-delay:.5s}
-  @keyframes tearFall{0%{transform:translateY(0);opacity:0}25%{opacity:1}100%{transform:translateY(22px);opacity:0}}
-  .tear-fast{animation-duration:.7s !important}
+.summary{background:var(--cream);border:2px dashed var(--pink-soft);border-radius:18px;padding:16px 14px;margin:16px 0 18px;text-align:left;font-size:1.02rem;line-height:1.9}
+.summary b{color:var(--pink-dark)}
+.action-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.action-btn{background:linear-gradient(135deg,var(--pink),var(--pink-dark));color:#fff;font-size:.95rem;padding:12px 20px;box-shadow:0 8px 18px rgba(255,46,99,.35)}
+.action-btn.ghost{background:#eef0f4;color:#5c6470;box-shadow:none}
+.action-btn:hover{transform:translateY(-2px)}
 
-  .drop{animation:rainFall .8s linear infinite}
-  .drop-2{animation-delay:.25s}
-  .drop-3{animation-delay:.5s}
-  @keyframes rainFall{0%{transform:translateY(0);opacity:0}30%{opacity:1}100%{transform:translateY(35px);opacity:0}}
+#confetti{position:fixed;inset:0;z-index:20;pointer-events:none}
+.footer{position:relative;z-index:2;margin-top:18px;font-size:.85rem;color:#b08894}
 
-  .sparkle{animation:twinkle 1s ease-in-out infinite alternate}
-  .sparkle-2{animation-delay:.3s}
-  .sparkle-3{animation-delay:.6s}
-  @keyframes twinkle{from{opacity:.2;transform:scale(.7)}to{opacity:1;transform:scale(1.15)}}
-
-  .sweat{animation:sweatDrop 1.2s ease-in infinite}
-  @keyframes sweatDrop{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(16px);opacity:0}}
-
-  /* ===== Date form ===== */
-  .panel{position:fixed;inset:0;z-index:10;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(255,214,226,.35);backdrop-filter:blur(6px)}
-  .panel.show{display:flex;animation:fadeIn .4s ease}
-  @keyframes fadeIn{from{opacity:0}to{opacity:1}}
-  .panel-card{width:min(92vw,440px);background:#fff;border-radius:28px;padding:30px 26px;box-shadow:0 24px 70px rgba(255,46,99,.35);text-align:center;animation:popIn .5s cubic-bezier(.34,1.56,.64,1)}
-  @keyframes popIn{from{transform:scale(.7) translateY(30px);opacity:0}to{transform:scale(1) translateY(0);opacity:1}}
-  .panel-card h2{font-size:1.6rem;margin-bottom:4px}
-  .panel-card p.desc{color:#8a6a75;margin-bottom:20px}
-  .field{text-align:left;margin-bottom:16px}
-  .field label{display:block;font-weight:700;font-size:.95rem;margin-bottom:6px}
-  .field input{width:100%;font-family:inherit;font-size:1rem;padding:12px 16px;border:2px solid #ffd3de;border-radius:14px;background:var(--cream);color:var(--brown-dark);outline:none;transition:border-color .25s,box-shadow .25s}
-  .field input:focus{border-color:var(--pink);box-shadow:0 0 0 4px rgba(255,94,138,.18)}
-  .submit-btn{width:100%;margin-top:6px;background:linear-gradient(135deg,var(--pink),var(--pink-dark));color:#fff;font-size:1.15rem;padding:15px;box-shadow:0 10px 24px rgba(255,46,99,.4)}
-  .submit-btn:hover{transform:translateY(-2px)}
-
-  /* ===== Final screen ===== */
-  .summary{background:var(--cream);border:2px dashed var(--pink-soft);border-radius:18px;padding:16px 14px;margin:16px 0 18px;text-align:left;font-size:1.02rem;line-height:1.9}
-  .summary b{color:var(--pink-dark)}
-  .action-row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
-  .action-btn{background:linear-gradient(135deg,var(--pink),var(--pink-dark));color:#fff;font-size:.95rem;padding:12px 20px;box-shadow:0 8px 18px rgba(255,46,99,.35)}
-  .action-btn.ghost{background:#eef0f4;color:#5c6470;box-shadow:none}
-  .action-btn:hover{transform:translateY(-2px)}
-
-  #confetti{position:fixed;inset:0;z-index:20;pointer-events:none}
-  .footer{position:relative;z-index:2;margin-top:18px;font-size:.85rem;color:#b08894}
-
-  /* ===== Music toggle ===== */
-  #musicToggle{position:fixed;top:14px;right:14px;z-index:50;background:rgba(255,255,255,.8);backdrop-filter:blur(6px);border:2px solid var(--pink-soft);border-radius:50%;width:44px;height:44px;font-size:1.3rem;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(255,46,99,.2);transition:transform .2s}
-  #musicToggle:hover{transform:scale(1.1)}
+#musicToggle{position:fixed;top:14px;right:14px;z-index:50;background:rgba(255,255,255,.8);backdrop-filter:blur(6px);border:2px solid var(--pink-soft);border-radius:50%;width:44px;height:44px;font-size:1.3rem;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(255,46,99,.2);transition:transform .2s}
+#musicToggle:hover{transform:scale(1.1)}
 </style>
 </head>
 <body>
@@ -173,94 +139,21 @@
 
 <div class="card" id="card">
   <div class="bear-stage" id="bearStage">
-    <svg id="bear" class="state-default" width="220" height="220" viewBox="0 0 220 220" fill="none">
-      <!-- rain cloud (sad) -->
-      <g class="cloud">
-        <ellipse cx="66" cy="30" rx="30" ry="15" fill="#b7c4cf"/>
-        <ellipse cx="94" cy="24" rx="20" ry="13" fill="#d3dde5"/>
-        <ellipse cx="42" cy="27" rx="18" ry="11" fill="#d3dde5"/>
-        <path class="drop" d="M58 52 q-4 7 0 10 q4 -3 0 -10" fill="#8ed0f0"/>
-        <path class="drop drop-2" d="M82 54 q-4 7 0 10 q4 -3 0 -10" fill="#8ed0f0"/>
-        <path class="drop drop-3" d="M104 50 q-4 7 0 10 q4 -3 0 -10" fill="#8ed0f0"/>
-      </g>
-
-      <!-- sparkles (happy) -->
-      <g class="sparkle sparkle-1" fill="#ffd166"><path d="M176 60 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z"/></g>
-      <g class="sparkle sparkle-2" fill="#ff9ff3"><path d="M30 100 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z"/></g>
-      <g class="sparkle sparkle-3" fill="#ffd166"><path d="M188 140 l2.5 7 7 2.5 -7 2.5 -2.5 7 -2.5 -7 -7 -2.5 7 -2.5 z"/></g>
-
-      <!-- bow on head -->
-      <g><path d="M110 44 L90 32 Q86 46 110 44 Z" fill="#ff5e8a"/><path d="M110 44 L130 32 Q134 46 110 44 Z" fill="#ff5e8a"/><circle cx="110" cy="44" r="6" fill="#ff2e63"/></g>
-
-      <!-- ears -->
-      <g class="ear ear-left"><circle cx="58" cy="52" r="26" fill="#c58f63"/><circle cx="58" cy="52" r="13" fill="#f8dcb8"/></g>
-      <g class="ear ear-right"><circle cx="162" cy="52" r="26" fill="#c58f63"/><circle cx="162" cy="52" r="13" fill="#f8dcb8"/></g>
-
-      <!-- head -->
-      <circle cx="110" cy="112" r="70" fill="#c58f63"/>
-
-      <!-- muzzle & nose -->
-      <ellipse cx="110" cy="134" rx="30" ry="23" fill="#f8dcb8"/>
-      <ellipse cx="110" cy="122" rx="9" ry="6.5" fill="#4a3226"/>
-
-      <!-- blush -->
-      <ellipse class="blush-default" cx="68" cy="122" rx="11" ry="7" fill="#ff9e9e" opacity=".75"/>
-      <ellipse class="blush-default" cx="152" cy="122" rx="11" ry="7" fill="#ff9e9e" opacity=".75"/>
-      <!-- blush bigger when happy -->
-      <ellipse class="blush-happy" cx="68" cy="120" rx="14" ry="9" fill="#ff8888" opacity=".85" style="display:none"/>
-      <ellipse class="blush-happy" cx="152" cy="120" rx="14" ry="9" fill="#ff8888" opacity=".85" style="display:none"/>
-
-      <!-- sweat drop (dramatic) -->
-      <path class="sweat" d="M174 82 q-4 10 0 14 q4 -4 0 -14" fill="#8ed0f0" opacity=".8"/>
-
-      <!-- eyes: default (with blink) -->
-      <g class="eyes-default">
-        <circle cx="86" cy="100" r="7" fill="#4a3226"/>
-        <circle cx="134" cy="100" r="7" fill="#4a3226"/>
-        <circle cx="88" cy="98" r="2.5" fill="#fff"/>
-        <circle cx="136" cy="98" r="2.5" fill="#fff"/>
-      </g>
-      <!-- eyes: sad (closed + tears) -->
-      <g class="eyes-sad">
-        <path d="M78 100 Q86 109 94 100" stroke="#4a3226" stroke-width="3.5" stroke-linecap="round"/>
-        <path d="M126 100 Q134 109 142 100" stroke="#4a3226" stroke-width="3.5" stroke-linecap="round"/>
-        <path class="tear" d="M82 104 q-5 9 0 13 q5 -4 0 -13" fill="#8ed0f0"/>
-        <path class="tear tear-2" d="M138 104 q-5 9 0 13 q5 -4 0 -13" fill="#8ed0f0"/>
-      </g>
-      <!-- eyes: happy (^ ^) -->
-      <g class="eyes-happy">
-        <path d="M78 101 Q86 87 94 101" stroke="#4a3226" stroke-width="4.5" stroke-linecap="round"/>
-        <path d="M126 101 Q134 87 142 101" stroke="#4a3226" stroke-width="4.5" stroke-linecap="round"/>
-      </g>
-      <!-- eyes: dramatic (X X or spirals) -->
-      <g class="eyes-dramatic">
-        <g transform="translate(86,100)"><line x1="-6" y1="-6" x2="6" y2="6" stroke="#4a3226" stroke-width="3" stroke-linecap="round"/><line x1="6" y1="-6" x2="-6" y2="6" stroke="#4a3226" stroke-width="3" stroke-linecap="round"/></g>
-        <g transform="translate(134,100)"><line x1="-6" y1="-6" x2="6" y2="6" stroke="#4a3226" stroke-width="3" stroke-linecap="round"/><line x1="6" y1="-6" x2="-6" y2="6" stroke="#4a3226" stroke-width="3" stroke-linecap="round"/></g>
-      </g>
-
-      <!-- mouth: default -->
-      <path class="mouth-default" d="M100 139 Q110 147 120 139" stroke="#4a3226" stroke-width="3" stroke-linecap="round"/>
-      <!-- mouth: sad -->
-      <path class="mouth-sad" d="M98 147 Q110 137 122 147" stroke="#4a3226" stroke-width="3" stroke-linecap="round"/>
-      <!-- mouth: happy (big smile) -->
-      <g class="mouth-happy">
-        <path d="M92 132 Q110 162 128 132 Z" fill="#a04040"/>
-        <ellipse cx="110" cy="148" rx="8" ry="4.5" fill="#ff8a8a"/>
-      </g>
-      <!-- mouth: dramatic (screaming) -->
-      <g class="mouth-dramatic">
-        <ellipse cx="110" cy="148" rx="12" ry="14" fill="#a04040"/>
-        <ellipse cx="110" cy="145" rx="8" ry="5" fill="#c06060"/>
-      </g>
-
-      <!-- paws -->
-      <g class="paws">
-        <circle cx="78" cy="180" r="15" fill="#d9a87c"/>
-        <circle cx="142" cy="180" r="15" fill="#d9a87c"/>
-        <ellipse cx="78" cy="180" rx="6" ry="5" fill="#f8dcb8"/>
-        <ellipse cx="142" cy="180" rx="6" ry="5" fill="#f8dcb8"/>
-      </g>
-    </svg>
+    <!-- Emoji -->
+    <div id="emoji">🥺</div>
+    <!-- Rain (sad) -->
+    <div class="rain">
+      <div class="rain-drop"></div>
+      <div class="rain-drop"></div>
+      <div class="rain-drop"></div>
+    </div>
+    <!-- Sparkles (happy) -->
+    <div class="sparkles">
+      <span class="spark">✨</span>
+      <span class="spark">💖</span>
+      <span class="spark">⭐</span>
+      <span class="spark">💕</span>
+    </div>
   </div>
 
   <h1 id="question">Sayang, mau ngedate sama aku nggak? 🥺</h1>
@@ -272,7 +165,7 @@
   </div>
 </div>
 
-<!-- Form tanggal & tempat -->
+<!-- Form -->
 <div class="panel" id="datePanel">
   <div class="panel-card">
     <h2>Yey! Atur jadwalnya yuk 📅</h2>
@@ -286,7 +179,7 @@
   </div>
 </div>
 
-<!-- Layar akhir -->
+<!-- Final -->
 <div class="panel" id="finalPanel">
   <div class="panel-card">
     <h2>KENCANNYA JADI! 🎉</h2>
@@ -304,45 +197,36 @@
 <p class="footer">dibuat dengan 💖 khusus buat kamu</p>
 
 <script>
-/* ================== EDIT DI SINI ================== */
 const CONFIG = {
   noTexts: [
-    "Nggak 😢",
-    "Yakin nih? 🤨",
-    "Beneran? 🥺",
-    "Serius? 💭",
-    "Hmm... 🤔",
-    "Kok tega sih 😭",
-    "Aku kecewa lho 🥲",
-    "No-nya makin kecil loh 👀",
-    "Aku nangis beneran nih 🐻💧",
-    "Coba pikir lagi 🥹",
-    "Kamu ga tau yang kamu tolak 😤",
-    "LAST CHANCE! ⚡",
-    "Yaudah deh 💔",
-    "GAK ADA NO LAGI! 😤💢"
+    "Nggak 😢","Yakin nih? 🤨","Beneran? 🥺","Serius? 💭","Hmm... 🤔",
+    "Kok tega sih 😭","Aku kecewa lho 🥲","No-nya makin kecil loh 👀",
+    "Aku nangis beneran nih 🐻💧","Coba pikir lagi 🥹","Kamu ga tau yang kamu tolak 😤",
+    "LAST CHANCE! ⚡","Yaudah deh 💔","GAK ADA NO LAGI! 😤💢"
   ],
   subtexts: [
-    "Jawab yang jujur ya...",
-    "Eh, kok No? 🥺",
-    "Aku udah siapin baju kencan lho... 😢",
-    "Bioskopnya udah aku booking... 🎬",
-    "Jangan kayak mantan aku ya 😤",
-    "Aku kecil hati nih... 🥲",
-    "Tadi malam aku mimpi kita kencan loh 💭",
-    "Aku udah latihan senyum depan cermin... 😭",
-    "Papa mama udah tanya 'pacarmu mana?' 😭",
+    "Jawab yang jujur ya...","Eh, kok No? 🥺","Aku udah siapin baju kencan lho... 😢",
+    "Bioskopnya udah aku booking... 🎬","Jangan kayak mantan aku ya 😤",
+    "Aku kecil hati nih... 🥲","Tadi malam aku mimpi kita kencan loh 💭",
+    "Aku udah latihan senyum depan cermin... 😭","Papa mama udah tanya 'pacarmu mana?' 😭",
     "Teman-teman udah pada tanya kapan kita jadian 💀",
-    "Aku udah update profil: ' single and looking' 😭",
+    "Aku udah update profil: 'single and looking' 😭",
     "No-nya kecil banget, kayak hatimu yang keras 😤",
-    "*bear nangis di pojokan* 🐻💧",
-    "Gimana kalau iya aja? Aku traktir! 🍦"
+    "*bear nangis di pojokan* 🐻💧","Gimana kalau iya aja? Aku traktir! 🍦"
   ]
 };
-/* ================================================== */
+
+// Emoji states
+const EMOJI = {
+  default:  '🥺',
+  sad:      '😢',
+  happy:    '🥰',
+  dramatic: '😤',
+  faint:    '😵'
+};
 
 const $ = id => document.getElementById(id);
-const bear = $('bear'), card = $('card');
+const emojiEl = $('emoji'), card = $('card');
 const yesBtn = $('yesBtn'), noBtn = $('noBtn');
 const question = $('question'), subtext = $('subtext');
 const stormOverlay = $('stormOverlay'), lightning = $('lightning');
@@ -351,7 +235,7 @@ let noCount = 0, accepted = false, sadTimer = null, dramaticTimer = null;
 let yesScale = 1, noScale = 1;
 let musicPlaying = false;
 
-/* ===== MUSIC ENGINE (WebAudio synth) ===== */
+/* ===== MUSIC ENGINE ===== */
 let actx = null;
 function getAudio() {
   if (!actx) actx = new (window.AudioContext || window.webkitAudioContext)();
@@ -359,7 +243,6 @@ function getAudio() {
   return actx;
 }
 
-// Cute romantic melody - "Twinkle Twinkle" style
 const melodyNotes = [
   {f:523,t:0,d:.35},{f:523,t:.4,d:.35},{f:698,t:.8,d:.35},{f:698,t:1.2,d:.35},
   {f:784,t:1.6,d:.35},{f:784,t:2.0,d:.35},{f:698,t:2.5,d:.65},
@@ -369,17 +252,14 @@ const melodyNotes = [
   {f:523,t:8.0,d:.35},{f:523,t:8.4,d:.35},{f:587,t:8.8,d:.35},{f:587,t:9.2,d:.35},
   {f:523,t:9.6,d:.35},{f:440,t:10.0,d:.35},{f:392,t:10.4,d:.35},{f:330,t:10.8,d:.7}
 ];
-
 let musicInterval = null;
 function playMusic() {
   if (musicPlaying) return;
   musicPlaying = true;
   $('musicToggle').textContent = '🔊';
-
   function playLoop() {
     const a = getAudio();
     melodyNotes.forEach(n => {
-      // Main melody voice
       const o1 = a.createOscillator(), g1 = a.createGain();
       o1.type = 'triangle'; o1.frequency.value = n.f;
       g1.gain.setValueAtTime(0, a.currentTime + n.t);
@@ -388,10 +268,8 @@ function playMusic() {
       o1.connect(g1).connect(a.destination);
       o1.start(a.currentTime + n.t);
       o1.stop(a.currentTime + n.t + n.d + .05);
-
-      // Soft harmony (lower)
       const o2 = a.createOscillator(), g2 = a.createGain();
-      o2.type = 'sine'; o2.frequency.value = n.f * 0.5;
+      o2.type = 'sine'; o2.frequency.value = n.f * .5;
       g2.gain.setValueAtTime(0, a.currentTime + n.t);
       g2.gain.linearRampToValueAtTime(.04, a.currentTime + n.t + .05);
       g2.gain.exponentialRampToValueAtTime(.001, a.currentTime + n.t + n.d);
@@ -400,133 +278,50 @@ function playMusic() {
       o2.stop(a.currentTime + n.t + n.d + .05);
     });
   }
-
   playLoop();
   musicInterval = setInterval(playLoop, 11600);
 }
-
 function stopMusic() {
   musicPlaying = false;
   $('musicToggle').textContent = '🎵';
   if (musicInterval) { clearInterval(musicInterval); musicInterval = null; }
 }
+$('musicToggle').addEventListener('click', () => { musicPlaying ? stopMusic() : playMusic(); });
 
-$('musicToggle').addEventListener('click', () => {
-  if (musicPlaying) stopMusic(); else playMusic();
-});
-
-/* ===== Sound effects ===== */
+/* ===== SOUND EFFECTS ===== */
 function playSadSound() {
-  try {
-    const a = getAudio();
-    const o = a.createOscillator(), g = a.createGain();
-    o.type = 'sine';
-    o.frequency.setValueAtTime(400, a.currentTime);
-    o.frequency.exponentialRampToValueAtTime(100, a.currentTime + .4);
-    g.gain.setValueAtTime(.2, a.currentTime);
-    g.gain.exponentialRampToValueAtTime(.001, a.currentTime + .5);
-    o.connect(g).connect(a.destination);
-    o.start(); o.stop(a.currentTime + .5);
-  } catch(e) {}
+  try { const a=getAudio(),o=a.createOscillator(),g=a.createGain(); o.type='sine'; o.frequency.setValueAtTime(400,a.currentTime); o.frequency.exponentialRampToValueAtTime(100,a.currentTime+.4); g.gain.setValueAtTime(.2,a.currentTime); g.gain.exponentialRampToValueAtTime(.001,a.currentTime+.5); o.connect(g).connect(a.destination); o.start(); o.stop(a.currentTime+.5); } catch(e){}
 }
-
 function playThunder() {
-  try {
-    const a = getAudio();
-    const bufferSize = a.sampleRate * 1.2;
-    const buffer = a.createBuffer(1, bufferSize, a.sampleRate);
-    const data = buffer.getChannelData(0);
-    for (let i = 0; i < bufferSize; i++) {
-      data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (a.sampleRate * .3));
-    }
-    const src = a.createBufferSource();
-    src.buffer = buffer;
-    const filt = a.createBiquadFilter();
-    filt.type = 'lowpass'; filt.frequency.value = 400;
-    const g = a.createGain();
-    g.gain.setValueAtTime(.35, a.currentTime);
-    g.gain.exponentialRampToValueAtTime(.001, a.currentTime + 1.2);
-    src.connect(filt).connect(g).connect(a.destination);
-    src.start();
-  } catch(e) {}
+  try { const a=getAudio(),buf=a.createBuffer(1,a.sampleRate*1.2,a.sampleRate),d=buf.getChannelData(0); for(let i=0;i<d.length;i++) d[i]=(Math.random()*2-1)*Math.exp(-i/(a.sampleRate*.3)); const s=a.createBufferSource(); s.buffer=buf; const f=a.createBiquadFilter(); f.type='lowpass'; f.frequency.value=400; const g=a.createGain(); g.gain.setValueAtTime(.35,a.currentTime); g.gain.exponentialRampToValueAtTime(.001,a.currentTime+1.2); s.connect(f).connect(g).connect(a.destination); s.start(); } catch(e){}
 }
-
-function playHeartbeat() {
-  try {
-    const a = getAudio();
-    function beat(time) {
-      const o = a.createOscillator(), g = a.createGain();
-      o.type = 'sine'; o.frequency.value = 55;
-      g.gain.setValueAtTime(0, time);
-      g.gain.linearRampToValueAtTime(.3, time + .05);
-      g.gain.exponentialRampToValueAtTime(.001, time + .2);
-      o.connect(g).connect(a.destination);
-      o.start(time); o.stop(time + .25);
-    }
-    beat(a.currentTime);
-    beat(a.currentTime + .15);
-  } catch(e) {}
-}
-
 function playChime() {
-  try {
-    const a = getAudio();
-    [523.25, 659.25, 783.99, 1046.5, 1318.5].forEach((f, i) => {
-      const o = a.createOscillator(), g = a.createGain();
-      o.type = 'triangle'; o.frequency.value = f;
-      g.gain.setValueAtTime(0, a.currentTime + i * .1);
-      g.gain.linearRampToValueAtTime(.15, a.currentTime + i * .1 + .02);
-      g.gain.exponentialRampToValueAtTime(.001, a.currentTime + i * .1 + .6);
-      o.connect(g).connect(a.destination);
-      o.start(a.currentTime + i * .1);
-      o.stop(a.currentTime + i * .1 + .65);
-    });
-  } catch(e) {}
+  try { const a=getAudio(); [523.25,659.25,783.99,1046.5,1318.5].forEach((f,i)=>{ const o=a.createOscillator(),g=a.createGain(); o.type='triangle'; o.frequency.value=f; g.gain.setValueAtTime(0,a.currentTime+i*.1); g.gain.linearRampToValueAtTime(.15,a.currentTime+i*.1+.02); g.gain.exponentialRampToValueAtTime(.001,a.currentTime+i*.1+.6); o.connect(g).connect(a.destination); o.start(a.currentTime+i*.1); o.stop(a.currentTime+i*.1+.65); }); } catch(e){}
 }
-
 function playFinalNo() {
-  try {
-    const a = getAudio();
-    // Descending sad trombone
-    [349, 330, 311, 262].forEach((f, i) => {
-      const o = a.createOscillator(), g = a.createGain();
-      o.type = 'sawtooth'; o.frequency.value = f;
-      const filt = a.createBiquadFilter();
-      filt.type = 'lowpass'; filt.frequency.value = 600;
-      g.gain.setValueAtTime(0, a.currentTime + i * .35);
-      g.gain.linearRampToValueAtTime(.1, a.currentTime + i * .35 + .02);
-      g.gain.exponentialRampToValueAtTime(.001, a.currentTime + i * .35 + .4);
-      o.connect(filt).connect(g).connect(a.destination);
-      o.start(a.currentTime + i * .35);
-      o.stop(a.currentTime + i * .35 + .45);
-    });
-  } catch(e) {}
+  try { const a=getAudio(); [349,330,311,262].forEach((f,i)=>{ const o=a.createOscillator(),g=a.createGain(); o.type='sawtooth'; o.frequency.value=f; const fl=a.createBiquadFilter(); fl.type='lowpass'; fl.frequency.value=600; g.gain.setValueAtTime(0,a.currentTime+i*.35); g.gain.linearRampToValueAtTime(.1,a.currentTime+i*.35+.02); g.gain.exponentialRampToValueAtTime(.001,a.currentTime+i*.35+.4); o.connect(fl).connect(g).connect(a.destination); o.start(a.currentTime+i*.35); o.stop(a.currentTime+i*.35+.45); }); } catch(e){}
 }
 
-/* ===== Background hearts ===== */
+/* ===== BACKGROUND HEARTS ===== */
 const bgEmojis = ['💗','💖','💕','🩷','❤️','🌸','✨'];
 for (let i = 0; i < 16; i++) {
   const h = document.createElement('span');
   h.className = 'bg-heart';
-  h.textContent = bgEmojis[Math.floor(Math.random() * bgEmojis.length)];
-  h.style.left = (Math.random() * 100) + 'vw';
-  h.style.fontSize = (12 + Math.random() * 18) + 'px';
-  h.style.animationDuration = (9 + Math.random() * 10) + 's';
-  h.style.animationDelay = (Math.random() * 12) + 's';
+  h.textContent = bgEmojis[Math.floor(Math.random()*bgEmojis.length)];
+  h.style.left = (Math.random()*100)+'vw';
+  h.style.fontSize = (12+Math.random()*18)+'px';
+  h.style.animationDuration = (9+Math.random()*10)+'s';
+  h.style.animationDelay = (Math.random()*12)+'s';
   document.body.appendChild(h);
 }
 
-/* ===== Bear state ===== */
+/* ===== BEAR STATE ===== */
 function setState(state) {
-  bear.className = 'state-' + state;
-  // Toggle blush
-  document.querySelectorAll('.blush-default').forEach(e => e.style.display = state === 'happy' ? 'none' : 'block');
-  document.querySelectorAll('.blush-happy').forEach(e => e.style.display = state === 'happy' ? 'block' : 'none');
-  // Sweat visibility
-  document.querySelectorAll('.sweat').forEach(e => e.style.display = (state === 'dramatic' || state === 'faint') ? 'block' : 'none');
+  emojiEl.parentElement.parentElement.className = 'card state-' + state;
+  emojiEl.textContent = EMOJI[state] || EMOJI.default;
 }
 
-/* ===== Confetti ===== */
+/* ===== CONFETTI ===== */
 const cv = $('confetti'), ctx = cv.getContext('2d');
 let confettiRunning = false;
 function resizeConfetti() { cv.width = innerWidth; cv.height = innerHeight; }
@@ -538,39 +333,31 @@ function burstConfetti(count = 170, spread = 16) {
   const parts = [];
   for (let i = 0; i < count; i++) {
     parts.push({
-      x: innerWidth / 2 + (Math.random() - .5) * 120,
-      y: innerHeight * .35,
-      vx: (Math.random() - .5) * spread,
-      vy: (Math.random() - .9) * spread * .85,
-      g: .3 + Math.random() * .2,
-      w: 5 + Math.random() * 9,
-      h: 7 + Math.random() * 11,
-      color: colors[Math.floor(Math.random() * colors.length)],
-      rot: Math.random() * Math.PI,
-      vr: (Math.random() - .5) * .35
+      x:innerWidth/2+(Math.random()-.5)*120, y:innerHeight*.35,
+      vx:(Math.random()-.5)*spread, vy:(Math.random()-.9)*spread*.85,
+      g:.3+Math.random()*.2, w:5+Math.random()*9, h:7+Math.random()*11,
+      color:colors[Math.floor(Math.random()*colors.length)],
+      rot:Math.random()*Math.PI, vr:(Math.random()-.5)*.35
     });
   }
   if (confettiRunning) return;
   confettiRunning = true;
   const start = performance.now();
   (function frame(now) {
-    ctx.clearRect(0, 0, cv.width, cv.height);
-    const t = (now - start) / 1000;
+    ctx.clearRect(0,0,cv.width,cv.height);
+    const t = (now-start)/1000;
     parts.forEach(p => {
-      p.x += p.vx; p.y += p.vy; p.vy += p.g; p.rot += p.vr;
-      ctx.save();
-      ctx.translate(p.x, p.y); ctx.rotate(p.rot);
-      ctx.globalAlpha = Math.max(0, 1 - t / 4);
-      ctx.fillStyle = p.color;
-      ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
-      ctx.restore();
+      p.x+=p.vx; p.y+=p.vy; p.vy+=p.g; p.rot+=p.vr;
+      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot);
+      ctx.globalAlpha=Math.max(0,1-t/4); ctx.fillStyle=p.color;
+      ctx.fillRect(-p.w/2,-p.h/2,p.w,p.h); ctx.restore();
     });
-    if (t < 4) requestAnimationFrame(frame);
-    else { ctx.clearRect(0, 0, cv.width, cv.height); confettiRunning = false; }
+    if (t<4) requestAnimationFrame(frame);
+    else { ctx.clearRect(0,0,cv.width,cv.height); confettiRunning=false; }
   })(start);
 }
 
-// Hearts around bear when happy
+// Stage hearts (happy)
 const stageHearts = ['💖','💘','💕','🩷','❤️','💗','✨','🌟'];
 let heartTimer = null;
 function startStageHearts() {
@@ -578,62 +365,52 @@ function startStageHearts() {
   heartTimer = setInterval(() => {
     const h = document.createElement('span');
     h.className = 'stage-heart';
-    h.textContent = stageHearts[Math.floor(Math.random() * stageHearts.length)];
-    h.style.left = (15 + Math.random() * 70) + '%';
-    h.style.fontSize = (16 + Math.random() * 18) + 'px';
-    h.style.animationDuration = (1 + Math.random() * 1) + 's';
+    h.textContent = stageHearts[Math.floor(Math.random()*stageHearts.length)];
+    h.style.left = (15+Math.random()*70)+'%';
+    h.style.fontSize = (16+Math.random()*18)+'px';
+    h.style.animationDuration = (1+Math.random()*1)+'s';
     $('bearStage').appendChild(h);
     setTimeout(() => h.remove(), 2200);
   }, 280);
 }
 
-// Dramatic dark particles when No final
+// Dark particles (dramatic)
 function dramaticParticles() {
-  const darkColors = ['#2c1810','#4a2020','#1a1a2e','#3d1c1c'];
+  const cols = ['#2c1810','#4a2020','#1a1a2e','#3d1c1c'];
   const parts = [];
-  for (let i = 0; i < 80; i++) {
-    parts.push({
-      x: Math.random() * innerWidth,
-      y: -20,
-      vx: (Math.random() - .5) * 3,
-      vy: 2 + Math.random() * 4,
-      g: .1 + Math.random() * .15,
-      size: 4 + Math.random() * 8,
-      color: darkColors[Math.floor(Math.random() * darkColors.length)],
-      rot: Math.random() * Math.PI * 2,
-      vr: (Math.random() - .5) * .2
-    });
-  }
+  for (let i=0;i<80;i++) parts.push({
+    x:Math.random()*innerWidth, y:-20,
+    vx:(Math.random()-.5)*3, vy:2+Math.random()*4,
+    g:.1+Math.random()*.15, size:4+Math.random()*8,
+    color:cols[Math.floor(Math.random()*cols.length)],
+    rot:Math.random()*Math.PI*2, vr:(Math.random()-.5)*.2
+  });
   const start = performance.now();
   (function frame(now) {
-    ctx.clearRect(0, 0, cv.width, cv.height);
-    const t = (now - start) / 1000;
+    ctx.clearRect(0,0,cv.width,cv.height);
+    const t=(now-start)/1000;
     parts.forEach(p => {
-      p.x += p.vx; p.y += p.vy; p.vy += p.g; p.rot += p.vr;
-      ctx.save();
-      ctx.translate(p.x, p.y); ctx.rotate(p.rot);
-      ctx.globalAlpha = Math.max(0, .7 - t / 5);
-      ctx.fillStyle = p.color;
-      ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size);
-      ctx.restore();
+      p.x+=p.vx; p.y+=p.vy; p.vy+=p.g; p.rot+=p.vr;
+      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.rot);
+      ctx.globalAlpha=Math.max(0,.7-t/5); ctx.fillStyle=p.color;
+      ctx.fillRect(-p.size/2,-p.size/2,p.size,p.size); ctx.restore();
     });
-    if (t < 5) requestAnimationFrame(frame);
-    else ctx.clearRect(0, 0, cv.width, cv.height);
+    if (t<5) requestAnimationFrame(frame);
+    else ctx.clearRect(0,0,cv.width,cv.height);
   })(start);
 }
 
-/* ===== Lightning effect ===== */
 function flashLightning() {
   lightning.classList.add('flash');
-  setTimeout(() => lightning.classList.remove('flash'), 80);
-  setTimeout(() => { lightning.classList.add('flash'); setTimeout(() => lightning.classList.remove('flash'), 60); }, 200);
-  setTimeout(() => { lightning.classList.add('flash'); setTimeout(() => lightning.classList.remove('flash'), 100); }, 500);
+  setTimeout(()=>lightning.classList.remove('flash'),80);
+  setTimeout(()=>{lightning.classList.add('flash');setTimeout(()=>lightning.classList.remove('flash'),60);},200);
+  setTimeout(()=>{lightning.classList.add('flash');setTimeout(()=>lightning.classList.remove('flash'),100);},500);
 }
 
 /* ===== NO BUTTON ===== */
 const maxNo = CONFIG.noTexts.length;
-const dramaticThreshold = maxNo - 2; // 2 dari terakhir mulai dramatic
-const faintThreshold = maxNo - 1; // terakhir faint
+const dramaticThreshold = maxNo - 2;
+const faintThreshold = maxNo - 1;
 
 noBtn.addEventListener('click', () => {
   if (accepted) return;
@@ -641,152 +418,111 @@ noBtn.addEventListener('click', () => {
 
   noScale = Math.max(.15, noScale * .72);
   yesScale = Math.min(5, yesScale * 1.3);
-  yesBtn.style.transform = 'scale(' + yesScale + ')';
-  noBtn.style.transform = 'scale(' + noScale + ')';
+  yesBtn.style.transform = 'scale('+yesScale+')';
+  noBtn.style.transform = 'scale('+noScale+')';
   yesBtn.style.animation = 'none';
 
-  const idx = Math.min(noCount - 1, CONFIG.noTexts.length - 1);
-  const subIdx = Math.min(noCount - 1, CONFIG.subtexts.length - 1);
+  const idx = Math.min(noCount-1, CONFIG.noTexts.length-1);
+  const subIdx = Math.min(noCount-1, CONFIG.subtexts.length-1);
   noBtn.textContent = CONFIG.noTexts[idx];
   subtext.textContent = CONFIG.subtexts[subIdx];
 
-  // === DRAMATIC PHASE (last 2 clicks) ===
   if (noCount >= dramaticThreshold && noCount < faintThreshold) {
-    // Dramatic phase - screen shakes, storm, thunder
-    playThunder();
-    flashLightning();
+    playThunder(); flashLightning();
     card.classList.add('shake');
     stormOverlay.classList.add('on');
     setState('dramatic');
     dramaticParticles();
-
     question.textContent = 'KAMU BENERAN TEGA?! 😤💔';
     question.style.color = '#ff2e63';
-
-    setTimeout(() => card.classList.remove('shake'), 600);
+    setTimeout(()=>card.classList.remove('shake'),600);
     clearTimeout(dramaticTimer);
-    dramaticTimer = setTimeout(() => { if (!accepted) { setState('default'); question.style.color = ''; stormOverlay.classList.remove('on'); } }, 2500);
+    dramaticTimer = setTimeout(()=>{ if(!accepted){setState('default');question.style.color='';stormOverlay.classList.remove('on');} },2500);
 
   } else if (noCount >= faintThreshold) {
-    // FINAL NO - bear faints, epic moment
-    playFinalNo();
-    flashLightning();
+    playFinalNo(); flashLightning();
     card.classList.add('shake');
     stormOverlay.classList.add('on');
     setState('faint');
     dramaticParticles();
-
     question.textContent = '... 😤💢';
     question.style.color = '#ff2e63';
     question.style.fontSize = '2rem';
     subtext.textContent = 'GAK ADA TOMBOL NO LAGI! 😤💢';
     subtext.style.color = '#ff2e63';
-
-    // Hide the no button with dramatic effect
     noBtn.style.transition = 'transform .6s ease, opacity .6s ease';
     noBtn.style.transform = 'scale(0) rotate(360deg)';
     noBtn.style.opacity = '0';
     noBtn.style.pointerEvents = 'none';
-
-    // Screen flash red briefly
-    setTimeout(() => { lightning.style.background = '#ff2e63'; flashLightning(); }, 300);
-    setTimeout(() => { lightning.style.background = '#fff'; }, 800);
-
+    setTimeout(()=>{lightning.style.background='#ff2e63';flashLightning();},300);
+    setTimeout(()=>{lightning.style.background='#fff';},800);
     clearTimeout(dramaticTimer);
-    dramaticTimer = setTimeout(() => {
-      if (!accepted) {
+    dramaticTimer = setTimeout(()=>{
+      if(!accepted){
         stormOverlay.classList.remove('on');
-        question.textContent = 'Yaudah, cuma ada tombol Yes sekarang 💘';
-        question.style.color = '';
-        question.style.fontSize = '';
-        subtext.textContent = 'Pilihanmu udah jelas~ 😌';
-        subtext.style.color = '';
+        question.textContent='Yaudah, cuma ada tombol Yes sekarang 💘';
+        question.style.color=''; question.style.fontSize='';
+        subtext.textContent='Pilihanmu udah jelas~ 😌'; subtext.style.color='';
         setState('default');
-        yesBtn.style.animation = 'yesPulse 2s ease-in-out infinite';
-        yesBtn.style.transform = 'scale(' + yesScale + ')';
+        yesBtn.style.animation='yesPulse 2s ease-in-out infinite';
+        yesBtn.style.transform='scale('+yesScale+')';
       }
-    }, 3000);
+    },3000);
 
   } else {
-    // Normal sad phase
-    if (noCount <= 3) playSadSound();
+    if (noCount<=3) playSadSound();
     setState('sad');
-
     clearTimeout(sadTimer);
-    sadTimer = setTimeout(() => { if (!accepted) setState('default'); }, 1500);
+    sadTimer = setTimeout(()=>{ if(!accepted)setState('default'); },1500);
   }
 
-  if (noScale <= .18) {
-    noBtn.style.display = 'none';
-  }
+  if (noScale<=.18) noBtn.style.display='none';
 });
 
 /* ===== YES BUTTON ===== */
 yesBtn.addEventListener('click', () => {
   if (accepted) return;
   accepted = true;
-
-  playMusic();
-  playChime();
+  playMusic(); playChime();
   setState('happy');
   burstConfetti();
   startStageHearts();
-
   question.textContent = 'YEY! Aku tahu kamu mau! 💖';
-  question.style.color = '';
-  question.style.fontSize = '';
+  question.style.color=''; question.style.fontSize='';
   subtext.textContent = 'Sekarang atur jadwal kencannya yuk!';
-  subtext.style.color = '';
-  yesBtn.style.animation = 'yesPulse 2s ease-in-out infinite';
-  yesBtn.style.transform = 'scale(' + yesScale + ')';
-  noBtn.style.opacity = '0';
-  noBtn.style.pointerEvents = 'none';
-
+  subtext.style.color='';
+  yesBtn.style.animation='yesPulse 2s ease-in-out infinite';
+  yesBtn.style.transform='scale('+yesScale+')';
+  noBtn.style.opacity='0'; noBtn.style.pointerEvents='none';
   stormOverlay.classList.remove('on');
-
-  setTimeout(() => {
+  setTimeout(()=>{
     card.classList.add('fade-out');
-    setTimeout(() => {
-      $('datePanel').classList.add('show');
-      $('dateInput').min = localToday();
-    }, 450);
-  }, 1800);
+    setTimeout(()=>{ $('datePanel').classList.add('show'); $('dateInput').min=localToday(); },450);
+  },1800);
 });
 
-function localToday() {
-  const d = new Date();
-  return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0');
-}
+function localToday(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 
-/* ===== Form submit ===== */
+/* ===== FORM ===== */
 $('dateForm').addEventListener('submit', e => {
   e.preventDefault();
-  const dateRaw = $('dateInput').value;
-  const time = $('timeInput').value;
-  const place = $('placeInput').value.trim();
-
-  const date = new Date(dateRaw + 'T00:00:00').toLocaleDateString('id-ID', {weekday:'long',day:'numeric',month:'long',year:'numeric'});
-  const timeText = time || 'Nanti kita tentukan bareng 😉';
-  const placeText = place || 'Di tempat favorit kita 😉';
-
-  $('summaryBox').innerHTML = '📅 <b>Kapan:</b> '+date+'<br>⏰ <b>Jam:</b> '+timeText+'<br>📍 <b>Ke mana:</b> '+placeText;
-
+  const dateRaw=$('dateInput').value, time=$('timeInput').value, place=$('placeInput').value.trim();
+  const date=new Date(dateRaw+'T00:00:00').toLocaleDateString('id-ID',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  const timeText=time||'Nanti kita tentukan bareng 😉';
+  const placeText=place||'Di tempat favorit kita 😉';
+  $('summaryBox').innerHTML='📅 <b>Kapan:</b> '+date+'<br>⏰ <b>Jam:</b> '+timeText+'<br>📍 <b>Ke mana:</b> '+placeText;
   $('datePanel').classList.remove('show');
   $('finalPanel').classList.add('show');
-  burstConfetti(200, 20);
-  playChime();
-
-  const msg = 'Yeay! Aku punya kencan nih 💖🐻\n📅 '+date+'\n⏰ '+timeText+'\n📍 '+placeText+'\n\nAku nggak sabar! 🥰';
-
-  $('waBtn').onclick = () => window.open('https://wa.me/?text='+encodeURIComponent(msg),'_blank');
-  $('copyBtn').onclick = () => {
-    (navigator.clipboard ? navigator.clipboard.writeText(msg) : Promise.reject())
-      .then(() => { $('copyBtn').textContent = 'Tersalin! ✅'; })
-      .catch(() => { const ta=document.createElement('textarea'); ta.value=msg; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); $('copyBtn').textContent='Tersalin! ✅'; });
+  burstConfetti(200,20); playChime();
+  const msg='Yeay! Aku punya kencan nih 💖🐻\n📅 '+date+'\n⏰ '+timeText+'\n📍 '+placeText+'\n\nAku nggak sabar! 🥰';
+  $('waBtn').onclick=()=>window.open('https://wa.me/?text='+encodeURIComponent(msg),'_blank');
+  $('copyBtn').onclick=()=>{
+    (navigator.clipboard?navigator.clipboard.writeText(msg):Promise.reject())
+      .then(()=>{$('copyBtn').textContent='Tersalin! ✅';})
+      .catch(()=>{const ta=document.createElement('textarea');ta.value=msg;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();$('copyBtn').textContent='Tersalin! ✅';});
   };
 });
-
-$('resetBtn').addEventListener('click', () => location.reload());
+$('resetBtn').addEventListener('click',()=>location.reload());
 </script>
 </body>
 </html>
