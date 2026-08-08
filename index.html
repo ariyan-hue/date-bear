@@ -49,11 +49,11 @@ body{font-family:'Baloo 2','Segoe UI',system-ui,sans-serif;background:linear-gra
 .card.fade-out{opacity:0;transform:scale(.92);pointer-events:none}
 
 /* ===== EMOJI STAGE ===== */
-.bear-stage{position:relative;height:220px;display:flex;align-items:center;justify-content:center;margin-bottom:6px}
+.bear-stage{position:relative;height:180px;display:flex;align-items:center;justify-content:center;margin-bottom:14px}
 .stage-heart{position:absolute;bottom:8%;pointer-events:none;z-index:3;animation:heartPop ease-out forwards}
 @keyframes heartPop{0%{transform:translateY(0) scale(.3);opacity:0}20%{opacity:1}100%{transform:translateY(-100px) scale(1.4) rotate(14deg);opacity:0}}
 
-#emoji{font-size:140px;line-height:1;transition:transform .3s;animation:idleBounce 3.2s ease-in-out infinite;filter:drop-shadow(0 8px 20px rgba(0,0,0,.12));user-select:none}
+#emoji{font-size:110px;line-height:1;transition:transform .3s;animation:idleBounce 3.2s ease-in-out infinite;filter:drop-shadow(0 6px 14px rgba(0,0,0,.1));user-select:none}
 @keyframes idleBounce{0%,100%{transform:translateY(0) rotate(0deg)}25%{transform:translateY(-8px) rotate(3deg)}75%{transform:translateY(-5px) rotate(-3deg)}}
 
 /* State animations */
